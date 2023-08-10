@@ -39,5 +39,13 @@ body {
     background-color: aqua;
 }
 
+/* Recipes */
 
+img {
+    width: fit-content;
+    height: auto;
+}
 
+h2 {
+    color: red;
+}

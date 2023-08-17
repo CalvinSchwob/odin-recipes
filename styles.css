@@ -1,76 +1,31 @@
 * {
     text-align: center;
+    background-color: aliceblue;
+    /* border: 1px red solid; */
 }
 
-div a {
-    color: black;
-    text-decoration: none;
-    border: 2px solid black;
-    background-color: black;
-    color:white;
+.heading h1 {
+    background-color: transparent;
 }
 
-button {
-    background-color: aqua;
-}
-
-.pizza-img {
-    width: 100px;
-    height: auto;
-}
-
-.pasta-img {
-    width: 100px;
-    height: auto;
-}
-
-.taco-img {
-    width: 100px;
-    height: auto;
-}
-
-
-
-body {
-    background-color:cornflowerblue
-}
-
-.main {
-    background-color: aqua;
-}
-
-/* Recipes */
-
-img {
-    width: fit-content;
-    height: auto;
-}
-
-/* h2 {
-    color: red;
-} */
-
-h1 {
-    border: 1px solid black;
-    background-color: white;
+.button-image {
     width: 200px;
+    height: auto;
     margin: auto;
-    margin-bottom: 20px;
-    border-radius: 20px;
+    border-radius: 20%;
 }
 
 .button {
-    background-color: white;
-    border: 2px solid black;
+    background-color: lightgray;
     width: 200px;
-    height: 200px;
-    margin: auto;
+    height: 250px;
     box-sizing: border-box;
-    padding-top: 35px;
+    margin: auto;
+    border-radius: 20%;
 }
 
-.extra-button {
-    width: 100px;
-    height: auto;
-    background-image:url(/images/chicken-tacos.jpg);
+.recipe-link {
+    color: #a10000;
+    text-decoration: none;
+    background-color: transparent;
 }

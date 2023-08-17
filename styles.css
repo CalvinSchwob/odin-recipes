@@ -46,9 +46,9 @@ img {
     height: auto;
 }
 
-h2 {
+/* h2 {
     color: red;
-}
+} */
 
 h1 {
     border: 1px solid black;
@@ -67,4 +67,11 @@ h1 {
     margin: auto;
     box-sizing: border-box;
     padding-top: 35px;
+}
+
+.extra-button {
+    width: 100px;
+    height: auto;
+    
+
 }

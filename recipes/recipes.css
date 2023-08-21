@@ -52,3 +52,10 @@ li {
     color: black;
     box-sizing: border-box;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

@@ -28,6 +28,8 @@ h1 {
     height: 102px;
     font-family: 'Inter', 'New Times Roman';
     font-size: 105px;
+    position: relative;
+    z-index: 1;
 }
 
 /* 
@@ -36,7 +38,7 @@ Recipe card styling
 
 .recipeCardContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -54,4 +56,9 @@ Recipe card styling
     background: white;
     padding: 20px;
     border-radius: 8px;
+}
+
+.margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
 }

@@ -16,3 +16,8 @@ h1 {
 /* 
 Recipe card styling
 */
+
+.recipeCardContainer {
+    display: flex;
+
+}

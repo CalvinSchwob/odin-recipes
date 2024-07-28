@@ -2,6 +2,14 @@
     border: 2px red solid;
 } */
 
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/inter.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     background-color: #e0dfdf;
 }
@@ -16,6 +24,10 @@ h1 {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0px;
+    box-sizing: border-box;
+    height: 102px;
+    font-family: 'Inter', 'New Times Roman';
+    font-size: 105px;
 }
 
 /* 

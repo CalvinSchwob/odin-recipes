@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 2px red solid;
-} */
+}
 
 body {
     background-color: #e0dfdf;
@@ -24,6 +24,7 @@ Recipe card styling
 
 .recipeCardContainer {
     display: flex;
+    justify-content: space-evenly;
 
 }
 

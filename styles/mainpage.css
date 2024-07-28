@@ -6,6 +6,11 @@ body {
     background-color: #e0dfdf;
 }
 
+img {
+    height: 100%;
+    width: auto;
+}
+
 h1 {
     font-size: 100px;
     text-align: center;
@@ -20,4 +25,13 @@ Recipe card styling
 .recipeCardContainer {
     display: flex;
 
+}
+
+.recipeImage {
+    width: 205px;
+    height: 245px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
